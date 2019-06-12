@@ -1,1 +1,5 @@
-# vue-create-plugin
+# 编写vue全局方法调用的插件
+
+## 一个单独vue组件，一个js文件导出带有install方法的对象被Vue所使用
+
+## install方法中通过暴露出来的Vue获取组件实例，从而改变其data中值，使组件感知到变化进行重新渲染
